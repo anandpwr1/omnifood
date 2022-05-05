@@ -1,0 +1,11 @@
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 44em) {
+  .logo-col {
+    grid-column: span 3;
+  }
+}
+
+ 

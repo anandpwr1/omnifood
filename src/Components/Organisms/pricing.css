@@ -1,0 +1,64 @@
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media (max-width: 75em) {
+ 
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}
+
+@media (max-width: 44em) {
+ 
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+    .grid--2-cols,
+ 
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+}

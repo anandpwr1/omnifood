@@ -1,0 +1,9 @@
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22; 
+  /* margin-right: 1.6rem; */
+}
+.no-flexbox-gap .meal-icon {
+  margin-right: 1.6rem;
+}

@@ -1,0 +1,85 @@
+/* .section-how {
+  padding: 9.6rem 0;
+} */
+
+
+/* .container { */
+  /* 1140px */
+  /* max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+  /* color: #45260a; */
+  /* color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+@media (max-width: 75em) {
+   .heading-secondary {
+    font-size: 3.6rem;
+  }
+}
+
+
+@media (max-width: 44em) {
+    .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+}
+
+
+@media (max-width: 75em) {
+   .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols
+   {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem; */
+ 
+  /* margin-bottom: 9.6rem; */
+/* } */
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+/* .grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+ */
